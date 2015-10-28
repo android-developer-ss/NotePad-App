@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+     <!-- Search, should appear as action button -->
+    <item android:id="@+id/action_search"
+          android:icon="@drawable/ic_action_search"
+          android:title="@string/action_search"
+          android:showAsAction="never" />
+    <!-- NEW Note, should appear as action button -->
+    <item android:id="@+id/action_new_note"
+          android:icon="@drawable/ic_new_note"
+          android:title="@string/action_new_note"
+          android:showAsAction="ifRoom" />
+     <!-- SAVE, should appear as action button -->
+    <item android:id="@+id/action_save"
+          android:icon="@drawable/ic_action_save"
+          android:title="@string/action_save"
+          android:showAsAction="ifRoom" />
+    <!-- SAVE AS, should appear as action button -->
+    <item android:id="@+id/action_saveas"
+          android:icon="@drawable/ic_action_save"
+          android:title="@string/action_saveas"
+          android:showAsAction="never" />
+    <!-- COLOR Palette, should appear as action button -->
+    <item android:id="@+id/action_bkgd_color"
+          android:title="@string/action_bkgd_color"
+          android:showAsAction="never" />
+    <!-- COLOR Palette, should appear as action button -->
+    <item android:id="@+id/action_text_color"
+          android:title="@string/action_text_color"
+          android:showAsAction="ifRoom" />
+    <!-- RECENT DOCUMENTs, should appear as action button -->
+    <item android:id="@+id/action_recent_docs"
+          android:title="@string/action_recent_docs"
+          android:showAsAction="ifRoom" />
+    <!-- Settings, should always be in the overflow -->
+    <item android:id="@+id/action_settings"
+          android:title="@string/action_settings"
+          android:showAsAction="never" />
+
+</menu>
